@@ -1,0 +1,14 @@
+:host {
+    --todo-list-compnent-font-weight: 700;
+    --todo-list-compnent-color: #337ab7;
+    --todo-list-compnent-cancel-search-top: 9px;
+    --todo-list-compnent-cancel-search-right: 10px;
+}
+.header {
+    font-weight: var(--todo-list-compnent-font-weight);
+    color: var(--todo-list-compnent-color);
+}
+.container .position-relative  .cancel-search {
+    top: var(--todo-list-compnent-cancel-search-top);
+    right: var(--todo-list-compnent-cancel-search-right);
+}
